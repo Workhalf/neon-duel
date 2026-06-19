@@ -1,6 +1,7 @@
 {
   "name": "NEON DUEL",
   "short_name": "NEON DUEL",
+  "version": "0.1.0",
   "description": "A single-player neon arena duel for touch and desktop.",
   "start_url": "./index.html",
   "scope": "./",

@@ -67,6 +67,8 @@
   .btn.pink{background:var(--pink);box-shadow:0 0 28px rgba(255,45,107,.5);}
   .hint{position:absolute;bottom:max(22px,env(safe-area-inset-bottom));left:0;right:0;text-align:center;
         color:var(--dim);font-size:10px;letter-spacing:.14em;line-height:1.7;}
+  #version{position:absolute;bottom:max(6px,env(safe-area-inset-bottom));right:8px;
+           font-size:9px;letter-spacing:.08em;color:var(--dim);opacity:.5;z-index:6;pointer-events:none;}
 </style>
 </head>
 <body>
@@ -78,6 +80,7 @@
     <div class="bar-block right e"><div class="bar-label">ENEMY</div><div class="bar"><div class="fill" id="ehpFill"></div></div></div>
   </div>
   <div id="round" class="hidden"></div>
+  <div id="version">v0.1.0</div>
 
   <div class="screen" id="startScreen">
     <div class="title">NEON<span class="x"> DUEL</span></div>
